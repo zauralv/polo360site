@@ -1,0 +1,235 @@
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    height: 138px;
+    background: linear-gradient(#d5d5d5, #fff, #fff, #fff);
+    padding: 36px 15px 25px 15px;
+}
+
+#menu {
+    float: right;
+    padding: 23px 0 0 0;
+}
+
+#menu li {
+    display: inline-block;
+    font-size: 0.7em Tahoma;
+    color: #b7b7b7;
+    padding: 0 10px 6px 10px;
+    border-left: 1px dotted #d6d6d6;
+}
+
+#menu li a {
+    display: block;
+    font: bold 0.9rem Georgia;
+    color: #666;
+    text-transform: uppercase;
+}
+
+main {
+    height: 1200px;
+    background: #fff url('../images/mainbg.jpg') repeat-x;
+    padding: 22px 0;
+}
+
+#slider {
+    height: 340px;
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    background: url('../images/slider.jpg') center;
+    box-shadow: 0 1px 10px #333;
+}
+
+h1 {
+    color: #000000;
+    font: bold 1.5em Georgia;
+    text-align: center;
+    margin: 22px 0;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%
+}
+
+.row h2 {
+    font-size: 1.3em Georgia;
+    color: #11719e;
+    letter-spacing: 1px;
+}
+
+h6 {
+    font-size: 0.7em Helvetica;
+    color: #8c8c8c;
+}
+
+article p {
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #3e3e3e;
+    font-family: "Helvetica";
+    text-align: justify;
+}
+
+.row article img {
+    padding: 7px;
+    background: #f3f3f3;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin: 18px 0;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 35px 10px;
+}
+
+.row::after {
+    content: none;
+    display: table;
+    clear: both;
+}
+
+.btn1 {
+    border: none;
+    height: 31px;
+    font-size: 0.8em;
+    color: #016999;
+    font-family: "Helvetica";
+    border: 1px solid #d8d8d8;
+    width: 162px;
+    text-align: left;
+    padding-left: 13px;
+    border-radius: 3px;
+    margin-top: 23px;
+    background: linear-gradient(to right, #e8e8e8, #f6f6f6, #f6f6f6, #e8e8e8, #e8e8e8);
+    ;
+}
+
+.arrow {
+    color: #096897;
+    margin-left: 58px;
+}
+
+.row2 h2 {
+    font-size: 1.2em;
+    color: #444444;
+    font-family: "Georgia";
+}
+
+.row2 hr {
+    border: none;
+    border-bottom: 1px dashed #d3d3d3;
+    width: 90%;
+    margin-left: 0px;
+}
+
+.row2 h6 {
+    width: 299px;
+    height: 57px;
+    font-size: 0.75em;
+    color: #444444;
+    font-family: "Helvetica";
+}
+
+.row2 img {
+    height: 48px;
+    border: none;
+    margin-top: -20px;
+}
+
+.row2 h3 {
+    font-size: 1.125em;
+    color: #444444;
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 42px;
+}
+
+.row2 input,
+textarea {
+    font-size: 0.625em;
+    color: #d4d4d4;
+    font-family: "Verdana";
+    padding: 7px 0 7px 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    display: block;
+    width: 280px;
+}
+
+#bottom {
+    margin-bottom: -15px;
+}
+
+.row2 button {
+    padding: 6px 0px 6px 10px;
+    width: auto;
+    text-align: left;
+    display: block;
+    margin-top: 12px;
+    font-size: 0.813em;
+    color: #ffffff;
+    font-family: "Georgia";
+    box-shadow: inset 0.5px 0.866px 0.5px rgba(1, 80, 113, 0.05);
+    border: 1px solid #004a80;
+    background: linear-gradient(to right, #487db4, #4c83ba, #4c83ba, #4c83ba, #3f6d99);
+    border-radius: 3px;
+}
+
+.row2 button span {
+    margin-left: 69px;
+    margin-right: 10px;
+}
+
+.contact {
+    margin: 13px 0px 18px 0px;
+}
+
+textarea {
+    resize: none;
+    padding: 11px 0px 0px 10px;
+    height: 132px;
+}
+
+.row2 .newsimg {
+    border: 6px solid #f0f0f0;
+    margin-top: 5px;
+    float: left;
+}
+
+.row2 .newsp {
+    margin-top: 14px;
+    margin-left: 60px;
+    width: 233px;
+    height: 57px;
+    font-size: 0.75em;
+    line-height: 14px;
+    color: #444444;
+    font-family: "Helvetica";
+}
+
+footer {
+    border-top: 10px solid #4c4c4c;
+    background: #333;
+    padding-top: 18px;
+}
+
+footer p {
+    font-size: 0.688em;
+    line-height: 15px;
+    color: #999;
+    font-family: "Helvetica";
+}
+
+footer #right{
+    margin-top: -37px;
+    float: right;
+    line-height: 0;
+}
